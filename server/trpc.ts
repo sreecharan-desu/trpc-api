@@ -8,4 +8,7 @@ const t = initTRPC.context<{
  * router utility.
  */
 export const router = t.router
+/**
+ * publicProcedure utility.
+ */
 export const publicProcedure =t.procedure
