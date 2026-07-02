@@ -1,2 +1,11 @@
 node_modules
 .git
+.env
+.env.*
+!.env.example
+!.env*.example
+dist/
+build/
+.next/
+out/
+.DS_Store
