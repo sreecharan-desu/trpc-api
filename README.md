@@ -1,5 +1,19 @@
-### a Standalone application executing tRPC ( remote procedure calls ) with typeScript                                                      
+# trpc-api
 
+standalone trpc server and client in typescript, with zod input validation.
 
-## Consistency & Discipline
-This project is maintained regularly to ensure documentation clarity and code quality. Small, daily improvements are prioritized over large, infrequent updates.
+## stack
+
+@trpc/server 10 · zod · typescript
+
+## run locally
+
+```bash
+npm install
+npx tsx server/index.ts
+npx tsx client/index.ts
+```
+
+## env
+
+none.
